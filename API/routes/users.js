@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'root',
-  database: 'supermarketitems'
+  database: 'larssonitems'
 })
 /* GET users listing. */
 router.get('/', function (req, res, next) {
